@@ -7,3 +7,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home,
+#presentation__chief__section {
+    background-color: #2e2e2e;
+}
+
+.home {
+    background-image: url(img/sushi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+li {
+    font-size: 18px;
+}
+
+.award {
+    color: #f5f5dc;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f5f5dc;
+    color: #111111;
+}
+
+.main__content {
+    flex-grow: 1;
+}
+
+#presentation__products__section,
+.background__beige {
+    background-color: #f5f5dc;
+}
+
+.background__red {
+    background-color: #cc3030;
+}
+
+.background__darkless {
+    background-color: #357575;
+}
