@@ -60,6 +60,14 @@ li {
     background-color: #f5f5dc;
 }
 
+#presentation__products__section article div {
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+#presentation__products__section article div:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.69);
+}
+
 .background__red {
     background-color: #cc3030;
 }
