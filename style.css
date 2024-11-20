@@ -68,6 +68,14 @@ li {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.69);
 }
 
+#presentation__chief__section article {
+    transition: transform 0.4s ease-in-out;
+}
+
+#presentation__chief__section article:hover {
+    transform: translateY(-12px);
+}
+
 .background__red {
     background-color: #cc3030;
 }
