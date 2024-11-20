@@ -1,10 +1,298 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant japonais</title>
+    <title>SushiDays, japanese restaurant. Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header
+      class="d-flex flex-column justify-content-center bg-dark w-100 px-2 py-4"
+    >
+      <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white">Reservation</a>
+        </li>
+      </ul>
+    </header>
+    <div
+      class="home text-center pb-5 d-flex flex-column justify-content-center align-center"
+    >
+      <div class="container pt-2">
+        <p class="fs-3 award">Japanese restaurant Award 2022-2023</p>
+        <h1 class="display-2 text-white mb-3">
+          <span>SushiDays, Your best Sushis provider ! </span>
+        </h1>
+        <p class="fs-1 text-white mb-5">Our chefs are waiting for your order</p>
+        <a href="reservation.html" class="button text-center"
+          >Call us for an appointment !</a
+        >
+      </div>
+    </div>
+    <main class="main__content">
+      <section id="presentation__products__section" class="p-5">
+        <div class="container">
+          <p class="fs-4 text-center">Only fresh and top quality food.</p>
+          <h2 class="display-4 text-center mb-4">
+            Take a sit, relax, we handle it.
+          </h2>
+          <p class="text-center fs-4 mb-4">
+            Here is a glimpse of our best products.
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/sushi-dish.jpg"
+                  alt="sushi"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>World class sushi</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/roasted-salmon.jpg"
+                  alt="roasted salmon"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>Roasted Salmon</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/sashimi.jpg"
+                  alt="sashimi"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>Sashimi</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/reservation-1.jpg"
+                  alt="salad"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>Salad</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/reservation-2.jpg"
+                  alt="Onigiri"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>Onigiri</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article>
+              <div class="card bg-dark text-light" style="min-height: 400px">
+                <img
+                  src="img/reservation-3.jpg"
+                  alt="japanese vegetables"
+                  class="img-fluid rounded-top"
+                />
+                <div class="card-body">
+                  <p>Elected dish of the year</p>
+                  <h3>Japanese vegetables</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quisquam, voluptate.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="presentation__chief__section" class="d-flex flex-column">
+        <h2 class="display-4 text-center text-light my-4">Our Dream Team</h2>
+        <p class="fs-4 text-center text-light mb-4">Only experts here.</p>
+
+        <div class="container p-4 p-md-0">
+          <div class="row">
+            <article
+              class="row g-0 flex-column flex-md-row rounded mb-5 background__beige"
+            >
+              <div class="col-12 col-md-3">
+                <img
+                  src="img/chef-2.jpg"
+                  alt="chef takasima jiro"
+                  class="w-100 h-100 d-block"
+                />
+              </div>
+              <div class="col-12 col-md-9">
+                <div
+                  class="p-4 h-100 d-flex flex-column justify-content-center"
+                >
+                  <h3>Makino Shiori.</h3>
+                  <p>Michelin awarded chef, from Tokyo.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt animi ducimus accusantium voluptas aspernatur
+                    necessitatibus iusto. Nobis, saepe aliquam. Cum dolor sunt
+                    laudantium aperiam sapiente enim dolorum atque perspiciatis
+                    repellat?
+                  </p>
+                  <a href="menu.html" class="btn btn-danger text-light"
+                    >Hungry ? Take a peak at the menu.</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="row g-0 flex-column flex-md-row rounded mb-5 background__beige"
+            >
+              <div class="col-12 col-md-3">
+                <img
+                  src="img/chef-3.jpg"
+                  alt="chef takasima jiro"
+                  class="w-100 h-100 d-block"
+                />
+              </div>
+              <div class="col-12 col-md-9">
+                <div
+                  class="p-4 h-100 d-flex flex-column justify-content-center"
+                >
+                  <h3>Takeshita Mamoru.</h3>
+                  <p>Best sushi Chef 02/12/2022.</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt animi ducimus accusantium voluptas aspernatur
+                    necessitatibus iusto. Nobis, saepe aliquam. Cum dolor sunt
+                    laudantium aperiam sapiente enim dolorum atque perspiciatis
+                    repellat?
+                  </p>
+                  <a href="menu.html" class="btn btn-danger text-light"
+                    >Hungry ? Take a peak at the menu.</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="row row-cols-1 row-cols-md-2 text-light g-0">
+        <div
+          class="background__red order-1 p-5 ps-4 ps-lg-5 ps-md-5 d-flex flex-column"
+        >
+          <h2 class="display-4">Best Japanese food in town.</h2>
+          <p class="fs-3">Fresh and marvelous food.</p>
+          <div class="btn-group">
+            <a
+              href="reservation.html"
+              class="btn btn-lg btn-outline-light text-dark"
+              >Reservation</a
+            >
+            <a href="menu.html" class="btn btn-lg btn-outline-light text-dark"
+              >Menu</a
+            >
+          </div>
+        </div>
+
+        <img src="img/img-slider-1.jpg" alt="Sauce" class="order-2" />
+
+        <div
+          class="background__darkless order-3 order-md-4 p-5 ps-4 ps-lg-5 ps-md-5 d-flex flex-column"
+        >
+          <h2 class="display-4">Best Japanese food in town.</h2>
+          <p class="fs-3">Fresh and marvelous food.</p>
+          <div class="btn-group">
+            <a
+              href="reservation.html"
+              class="btn btn-lg btn-outline-light text-dark"
+              >Reservation</a
+            >
+            <a href="menu.html" class="btn btn-lg btn-outline-light text-dark"
+              >Menu</a
+            >
+          </div>
+        </div>
+
+        <img
+          src="img/img-slider-2.jpg"
+          alt="cuisine du restaurant sushiDays"
+          class="order-4 order-md-3"
+        />
+      </section>
+    </main>
+    <footer
+      class="bg-dark text-white d-flex justify-content-center align-items-center px-2 pt-4"
+    >
+      <p class="fs-5 text-center">
+        &copy; Copyright 2024 SushiDays, Japanese restaurant. All Rights
+        Reserved.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
