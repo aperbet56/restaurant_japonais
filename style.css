@@ -28,7 +28,8 @@ body {
     background-color: #2e2e2e;
 }
 
-.home {
+.home,
+.introduction__gallery__section {
     background-image: url(img/sushi.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -103,3 +104,14 @@ li {
 .introduction__gallery__section {
     height: 500px;
 }
+
+/*iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 6px;
+}
+
+i {
+    padding-right: 10px;
+}*/
