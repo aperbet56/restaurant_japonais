@@ -23,7 +23,8 @@ body {
 }
 
 .home,
-#presentation__chief__section {
+#presentation__chief__section,
+.introduction__gallery__section {
     background-color: #2e2e2e;
 }
 
@@ -97,4 +98,8 @@ li {
     background-position: center;
     background-size: cover;
     height: 500px;
+}
+
+.introduction__gallery__section {
+    height: 400px;
 }
