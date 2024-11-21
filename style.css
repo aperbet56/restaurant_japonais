@@ -58,10 +58,12 @@ li {
 
 .main__content {
     flex-grow: 1;
+    background-color: #f5f5dc;
 }
 
 #presentation__products__section,
-.background__beige {
+.background__beige,
+#menu__accordion {
     background-color: #f5f5dc;
 }
 
@@ -87,4 +89,12 @@ li {
 
 .background__darkless {
     background-color: #357575;
+}
+
+.introduction {
+    background-image: url(img/diving-sushi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
