@@ -49,6 +49,7 @@ li {
     border-radius: 6px;
     background-color: #f5f5dc;
     color: #111111;
+    text-align: center;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -100,4 +101,9 @@ iframe {
 
 i {
     padding-right: 10px;
+}
+
+.reservation__btn {
+    background-color: #2e2e2e;
+    color: #ffffff;
 }
