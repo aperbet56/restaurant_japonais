@@ -23,13 +23,11 @@ body {
 }
 
 .home,
-#presentation__chief__section,
-.introduction__gallery__section {
+#presentation__chief__section {
     background-color: #2e2e2e;
 }
 
-.home,
-.introduction__gallery__section {
+.home {
     background-image: url(img/sushi.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -91,18 +89,6 @@ li {
 
 .background__darkless {
     background-color: #357575;
-}
-
-.introduction {
-    background-image: url(img/diving-sushi.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 500px;
-}
-
-.introduction__gallery__section {
-    height: 500px;
 }
 
 iframe {
