@@ -64,8 +64,7 @@ li {
 }
 
 #presentation__products__section,
-.background__beige,
-#menu__accordion {
+.background__beige {
     background-color: #f5f5dc;
 }
 
@@ -91,6 +90,14 @@ li {
 
 .background__darkless {
     background-color: #357575;
+}
+
+.image__description {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1.5rem;
 }
 
 iframe {
