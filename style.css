@@ -22,9 +22,30 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+.nav {
+    opacity: 0;
+    transform: translateY(-30px);
+    animation: appear 0.4s 2s ease-out forwards;
+}
+
+/**** Animation appear ****/
+
+@keyframes appear {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+header,
+footer,
 .home,
 #presentation__chief__section {
-    background-color: #2e2e2e;
+    background-color: #141414;
+}
+
+li {
+    font-size: 18px;
 }
 
 .home {
@@ -32,30 +53,39 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*height: 100vh;*/
-    height: 800px;
+    height: calc(100vh - 45px);
 }
 
-li {
-    font-size: 18px;
-}
-
-.award {
+.home p {
     color: #f5f5dc;
+    opacity: 0;
+    transform: translateX(400px);
+    animation: appear 0.4s 0.4s ease-out forwards;
+}
+
+h1 {
+    opacity: 0;
+    transform: translateX(-400px);
+    animation: appear 0.4s 0.8s ease-out forwards;
+}
+
+h2 {
+    opacity: 0;
+    transform: translateX(400px);
+    animation: appear 0.4s 1.2s ease-out forwards;
 }
 
 .button {
+    display: inline-block;
     text-decoration: none;
     padding: 10px;
     border-radius: 6px;
     background-color: #f5f5dc;
     color: #111111;
     text-align: center;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.button:hover {
-    opacity: 0.9;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: appear 0.4s 1.6s ease-out forwards;
 }
 
 .main__content {
@@ -81,7 +111,7 @@ li {
 }
 
 #presentation__chief__section article:hover {
-    transform: translateY(-12px);
+    transform: scale(1.02);
 }
 
 .background__red {
