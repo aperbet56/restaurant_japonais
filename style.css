@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     font-family: "Lato", sans-serif;
     animation-play-state: paused !important;
+    overflow-x: hidden;
 }
 
 .nav {
