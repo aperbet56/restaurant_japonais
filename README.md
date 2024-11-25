@@ -11,7 +11,7 @@ Création d'un site complet de restauration japonaise SushiDays en HTML5, CSS3, 
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/restaurant_japonais/
 
 ## Projet développé avec
 
