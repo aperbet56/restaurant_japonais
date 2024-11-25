@@ -128,3 +128,17 @@ iframe {
 i {
     padding-right: 10px;
 }
+
+/**** responsive design ****/
+
+@media screen and (max-width: 576px) {
+
+    .image__description {
+        width: 80px;
+        height: 80px;
+    }
+
+    .accordion-item .accordion-body .lead {
+        font-size: 16px;
+    }
+}
