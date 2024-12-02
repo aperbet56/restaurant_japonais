@@ -104,6 +104,7 @@ li {
 
 #presentation__chief__section article {
     transition: transform 0.4s ease-in-out;
+    will-change: transform;
 }
 
 #presentation__chief__section article:hover {
