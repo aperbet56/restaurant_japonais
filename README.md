@@ -2,19 +2,19 @@
 
 Home :
 
-![Design preview for the agrumes d'yssi projet](./img/preview.png)
+![Design preview for the projet](./img/preview.png)
 
 Menu :
 
-![Design preview for the agrumes d'yssi projet](./img/preview-1.png)
+![Design preview for the projet](./img/preview-1.png)
 
 Gallery :
 
-![Design preview for the agrumes d'yssi projet](./img/preview-2.png)
+![Design preview for the projet](./img/preview-2.png)
 
 Reservation :
 
-![Design preview for the agrumes d'yssi projet](./img/preview-3.png)
+![Design preview for the projet](./img/preview-3.png)
 
 ## Le challenge
 
