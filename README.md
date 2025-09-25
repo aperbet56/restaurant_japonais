@@ -1,5 +1,21 @@
 ## 🥢 RESTAURANT JAPONAIS : SUSHIDAYS 🍣
 
+Home :
+
+![Design preview for the agrumes d'yssi projet](./img/preview.png)
+
+Menu :
+
+![Design preview for the agrumes d'yssi projet](./img/preview-1.png)
+
+Gallery :
+
+![Design preview for the agrumes d'yssi projet](./img/preview-2.png)
+
+Reservation :
+
+![Design preview for the agrumes d'yssi projet](./img/preview-3.png)
+
 ## Le challenge
 
 Création d'un site complet de restauration japonaise SushiDays en HTML5, CSS3, JavaScript et Bootstrap. Ce site comprend 4 pages :
