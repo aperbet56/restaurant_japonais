@@ -15,6 +15,7 @@ Puis j'enlève cette classe en JavaScript lorsque je suis sûre que le site a bi
 });
 */
 
+// Ecoute de l'événement "load" sur la fenêtre
 window.addEventListener("load", () => {
   document.body.classList.remove("loading__animation");
 });
