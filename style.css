@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /**** Style général de la page ****/
 
 body {
@@ -22,6 +26,7 @@ body {
     font-family: "Lato", sans-serif;
     animation-play-state: paused !important;
     overflow-x: hidden;
+    color: #2b2c34;
 }
 
 .nav {
@@ -59,7 +64,7 @@ li {
 }
 
 .home p {
-    color: #f5f5dc;
+    color: #e45858;
     opacity: 0;
     transform: translateX(400px);
     animation: appear 0.4s 0.4s ease-out forwards;
@@ -67,31 +72,55 @@ li {
 
 .home h1 {
     opacity: 0;
+    text-shadow: 2px 2px 0 #181818;
     transform: translateX(-400px);
     animation: appear 0.4s 0.8s ease-out forwards;
 }
 
 .home h2 {
     opacity: 0;
+    text-shadow: 4px 4px 0 #181818;
     transform: translateX(400px);
     animation: appear 0.4s 1.2s ease-out forwards;
 }
 
 .button {
     display: inline-block;
+    background-color: #6246ea;
+    padding: 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.link__btn {
     opacity: 0;
     transform: translateY(30px);
     animation: appear 0.4s 1.6s ease-out forwards;
 }
 
+.button:hover {
+    box-shadow: 0 1px 4px 4px rgba(0, 31, 206, 0.986);
+}
+
 .main__content {
     flex-grow: 1;
-    background-color: #f5f5dc;
+    background-color: #ffffff;
+}
+
+.card {
+    background-color: #d1d1e9;
+    color: #2b2c34;
 }
 
 #presentation__products__section,
-.background__beige {
-    background-color: #f5f5dc;
+.background {
+    background-color: #ffffff;
+}
+
+#presentation__chief__section,
+.background__1 {
+    background-color: #d1d1e9;
 }
 
 #presentation__products__section article div {
@@ -109,6 +138,14 @@ li {
 
 #presentation__chief__section article:hover {
     transform: scale(1.02);
+}
+
+.preview {
+    background-color: #e45858;
+}
+
+.preview__1 {
+    background-color: #6246ea;
 }
 
 .image__description {
